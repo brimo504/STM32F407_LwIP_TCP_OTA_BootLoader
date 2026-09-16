@@ -1,0 +1,42 @@
+# Keil MDK编译输出
+Objects/
+Listings/
+*.o
+*.d
+*.crf
+*.lnp
+*.map
+*.axf
+*.elf
+*.hex
+*.bin
+*.lst
+*.build_log.htm
+*.dep
+
+# Keil 本地个人调试配置，不要提交
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+
+# CubeMX生成的临时文件
+*.mxproject
+.settings/
+*.bak
+*.tmp
+
+# 本地输出固件文件夹，bin、hex不上仓库
+Farmware/
+build_bin.bat
+
+# JLink日志
+JLinkLog.txt
+
+# Windows系统文件
+Thumbs.db
+Desktop.ini
+
+# VSCode、IDE缓存
+.vscode/
+.idea/
+*.su
